@@ -30,7 +30,8 @@ body{
     flex: 1;
     position: relative;
     overflow: hidden;
-    transition: all 1s cubic-bezier(0.08, 0.82, 0.17, 1); 
+    transition: all 1s cubic-bezier(0.08, 0.82, 0.17, 1);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .main-container .image-preview:hover{
